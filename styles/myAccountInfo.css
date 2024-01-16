@@ -1,0 +1,86 @@
+
+  
+  .account-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #0000006b;
+  }
+  
+  .account-information {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #ffffff;
+    font-size: var(--title-font-size);
+    text-align: center;
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    text-decoration: underline;
+    font-style: var(--title-font-style);
+  }
+  
+  .account-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account-field-names {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--navbar-font-family);
+    font-weight: var(--navbar-font-weight);
+    color: #ffffff;
+    font-size: var(--navbar-font-size);
+    text-align: center;
+    letter-spacing: var(--navbar-letter-spacing);
+    line-height: var(--navbar-line-height);
+    font-style: var(--navbar-font-style);
+  }
+
+  .account-field-data {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    color: #ffffff;
+    font-size: var(--text-font-size);
+    text-align: center;
+    letter-spacing: var(--text-letter-spacing);
+    line-height: var(--text-line-height);
+    font-style: var(--text-font-style);
+  }
+

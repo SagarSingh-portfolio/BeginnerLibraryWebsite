@@ -1,0 +1,62 @@
+
+.header {
+  position: relative;
+  width: 1920px;
+  height: 65px;
+  background-color: #053f5c;
+  overflow: hidden;
+}
+
+.navbar {
+  display: inline-flex;
+  height: 66px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0px 15px;
+  position: relative;
+  left: 820px;
+  overflow: hidden;
+}
+
+.navbarBtn {
+  all: unset;
+  display: inline-flex;
+  height: 66px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 0px 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.navbarIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+
+
+.navbarText {
+  position: relative;
+  width: fit-content;
+  font-family: var(--navbar-font-family);
+  font-weight: var(--navbar-font-weight);
+  color: #9fe7f5;
+  font-size: var(--navbar-font-size);
+  text-align: center;
+  letter-spacing: var(--navbar-letter-spacing);
+  line-height: var(--navbar-line-height);
+  font-style: var(--navbar-font-style);
+}
+
+.navbarBtn:hover div{
+  color: rgba(247, 173, 25, 1);
+}
+
+.navbarBtn:hover div img{
+  filter: brightness(60%) saturate(1000%) hue-rotate(220deg);
+}

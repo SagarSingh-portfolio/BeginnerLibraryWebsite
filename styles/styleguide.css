@@ -1,0 +1,25 @@
+:root {
+    --navbar-font-family: "Inter-Bold", Helvetica;
+    --navbar-font-weight: 700;
+    --navbar-font-size: 14px;
+    --navbar-letter-spacing: 0px;
+    --navbar-line-height: normal;
+    --navbar-font-style: normal;
+    --text-font-family: "Inter-Regular", Helvetica;
+    --text-font-weight: 400;
+    --text-font-size: 14px;
+    --text-letter-spacing: 0px;
+    --text-line-height: normal;
+    --text-font-style: normal;
+    --title-font-family: "Inter-Medium", Helvetica;
+    --title-font-weight: 500;
+    --title-font-size: 32px;
+    --title-letter-spacing: 0px;
+    --title-line-height: normal;
+    --title-font-style: normal;
+    --collection-1-light-blue: rgba(159, 231, 245, 1);
+    --collection-1-blue: rgba(66, 158, 189, 1);
+    --collection-1-dark-blue: rgba(5, 63, 92, 1);
+    --collection-1-yellow: rgba(247, 173, 25, 1);
+    --collection-1-orange: rgba(242, 124, 12, 1);
+  }

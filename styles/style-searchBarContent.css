@@ -1,0 +1,162 @@
+ .search-bar {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff9c;
+  }
+  
+   .search-for-any-book {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--navbar-font-family);
+    font-weight: var(--navbar-font-weight);
+    color: #053f5c;
+    font-size: var(--navbar-font-size);
+    text-align: center;
+    letter-spacing: var(--navbar-letter-spacing);
+    line-height: var(--navbar-line-height);
+    font-style: var(--navbar-font-style);
+  }
+  
+   .searchMain {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+   .searchMainBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+   .search-books {
+    width: 300px;
+    padding: 7px 10px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50px 0px 0px 50px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #f7ad19;
+    flex: 0 0 auto;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #00000078;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .searchMainEnter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 15px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #053f5c;
+    border-radius: 0px 50px 50px 0px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #f7ad19;
+  }
+
+  .searchMainEnter:hover{
+    background-color: rgba(159, 231, 245, 1);
+  }
+
+  .searchMainEnter:hover *{
+    color:#053f5c;
+  }
+
+  .searchMainEnter:hover img{
+    filter: brightness(30%) saturate(100%) hue-rotate(180deg);
+  }
+  
+   .search {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: var(--navbar-font-family);
+    font-weight: var(--navbar-font-weight);
+    color: #f7ad19;
+    font-size: var(--navbar-font-size);
+    text-align: center;
+    letter-spacing: var(--navbar-letter-spacing);
+    line-height: var(--navbar-line-height);
+    font-style: var(--navbar-font-style);
+  }
+  
+   .frame-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+   .drop-down-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+   .searchbtns {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f27c0c;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .searchbtns option {
+    color: #ffffff;
+  }
+
+   .search-by {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    color: #ffffff;
+    font-size: var(--text-font-size);
+    text-align: center;
+    letter-spacing: var(--text-letter-spacing);
+    line-height: var(--text-line-height);
+    font-style: var(--text-font-style);
+  }
+
+.icon-search {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    margin-top: -0.5px;
+    margin-bottom: -0.5px;
+    margin-left: -0.5px;
+  }

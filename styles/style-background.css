@@ -1,0 +1,58 @@
+
+.content {
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    background-size: 100% 100%;
+  }
+
+.backgroundHome img{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    clip: unset;
+}
+
+.frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 36px 0px;
+    position: relative;
+    top: 94px;
+    left: 460px;
+    background-color: #ffffffe0;
+    border-radius: 50px;
+  }
+  
+.search-guide {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #f27c0c;
+    font-size: var(--title-font-size);
+    text-align: center;
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    text-decoration: underline;
+    font-style: var(--title-font-style);
+}
+  
+.search-by-book-title {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    color: #000000;
+    font-size: var(--text-font-size);
+    text-align: center;
+    letter-spacing: var(--text-letter-spacing);
+    line-height: var(--text-line-height);
+    font-style: var(--text-font-style);
+}

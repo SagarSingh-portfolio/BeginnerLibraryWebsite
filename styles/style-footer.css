@@ -1,0 +1,164 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1px 111px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #053f5c;
+}
+
+.text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--navbar-font-family);
+    font-weight: var(--navbar-font-weight);
+    color: #ffffff;
+    font-size: var(--navbar-font-size);
+    text-align: center;
+    letter-spacing: var(--navbar-letter-spacing);
+    line-height: var(--navbar-line-height);
+    font-style: var(--navbar-font-style);
+}
+
+.information {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 94px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.contactInfo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 39px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.socialInfo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 39px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.email-booknhook {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-font-family);
+    font-weight: var(--text-font-weight);
+    color: #ffffff;
+    font-size: var(--text-font-size);
+    letter-spacing: var(--text-letter-spacing);
+    line-height: var(--text-line-height);
+    font-style: var(--text-font-style);
+}
+
+  .socialLink {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.line {
+    position: relative;
+    width: 785.5px;
+    height: 4px;
+}
+
+.logo {
+    position: relative;
+    width: 276px;
+    height: 65px;
+    overflow: hidden;
+    border: 0px none;
+}
+  
+.overlap-group {
+    position: relative;
+    width: 570px;
+    height: 326px;
+    top: -131px;
+    left: -114px;
+}
+  
+.rectangle {
+    width: 198px;
+    left: 186px;
+    position: absolute;
+    height: 49px;
+    top: 139px;
+    border-radius: 40px 0px 40px 0px;
+    border: 3px solid;
+    border-color: #429ebd;
+}
+
+.rectangle-2 {
+    width: 69px;
+    left: 117px;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 49px;
+    top: 139px;
+    border-radius: 0px 40px 0px 40px;
+    border: 3px solid;
+    border-color: #429ebd;
+}
+  
+.book-n-hook {
+    position: absolute;
+    top: 152px;
+    left: 215px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #429ebd;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 2;
+}
+
+.element-web-design-and-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 38px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+  
+.element-web-design-and {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #f7ad19;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
