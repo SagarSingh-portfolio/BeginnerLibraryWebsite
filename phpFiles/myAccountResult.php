@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="styles/myAccountResult.css">
+    <link rel="stylesheet" href="../styles/myAccountResult.css">
 </head>
 
 <?php
@@ -117,12 +117,12 @@
                 <div class="next-and-previous">
                     <?php
                         // move data page to previous or next page
-                        echo '<a href="myAccount.php?pageNum=' . ($pgNum -1) . '"><img class="img-2" src="img/previous-button-2.png"/></a>';
+                        echo '<a href="myAccount.php?pageNum=' . ($pgNum -1) . '"><img class="img-2" src="../img/previous-button-2.png"/></a>';
                         echo '<div class="div-wrapper"><div class="text-wrapper-5">' . $pgNum . '</div></div>';
-                        echo '<a  href="myAccount.php?pageNum=' . ($pgNum +1) . '" ><img class="img-2" src="img/next-button-2.png"/></a>';
+                        echo '<a  href="myAccount.php?pageNum=' . ($pgNum +1) . '" ><img class="img-2" src="../img/next-button-2.png"/></a>';
                      ?>
                 </div>
         </div>
     </div>
-    <div class="backgroundHome"><img src="img/background.png" alt=""></div>
+    <div class="backgroundHome"><img src="../img/background.png" alt=""></div>
 </div>

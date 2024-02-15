@@ -1,7 +1,7 @@
 <head>
-    <link rel="stylesheet" href="styles/globals.css" />
-    <link rel="stylesheet" href="styles/styleguide.css" />
-    <link rel="stylesheet" href="styles/style-searchBarContent.css" />
+    <link rel="stylesheet" href="../styles/globals.css" />
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style-searchBarContent.css" />
 </head>
 <div class="search-bar" id="searchBar">
     <p class="search-for-any-book">SEARCH FOR ANY BOOK OR AUTHOR</p>
@@ -9,7 +9,7 @@
       <div class="searchMainBtn">
         <input name="searchText" type="text" class="search-books" id="input-1" placeholder="Search for books"/>
         <button type="submit" class="searchMainEnter">
-          <img class="icon-search" src="img/icon-search-2.png" />
+          <img class="icon-search" src="../img/icon-search-2.png" />
           <label class="search" for="input-1">SEARCH</label>
         </button>
       </div>

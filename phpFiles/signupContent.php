@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="styles/style-signupContent.css">
+    <link rel="stylesheet" href="../styles/style-signupContent.css">
 </head>
 <?php 
     $servername = "localhost";
@@ -124,7 +124,7 @@
 
 <div class="main">
     <div class="content">
-        <img class="background-pattern" src="img/background.png" />
+        <img class="background-pattern" src="../img/background.png" />
         <form class="div-2" method="post">
             <div class="text-wrapper1">SIGN UP</div>
             <div class="all-fields-required">

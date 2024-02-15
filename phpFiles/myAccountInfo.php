@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="styles/myAccountInfo.css">
+    <link rel="stylesheet" href="../styles/myAccountInfo.css">
 </head>
 <?php
     $servername = "localhost";

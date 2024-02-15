@@ -136,7 +136,7 @@
 
 <div class="main">
         <div class="content">
-          <img class="background-pattern" src="img/background.png" />
+          <img class="background-pattern" src="../img/background.png" />
           <div class="div">
             <div class="div">
               <div class="full-table">
@@ -192,9 +192,9 @@
                   <div class="div-3">
                      <?php
                         // move data page to previous or next page
-                        echo '<a href="searchResult.php?pageNum=' . ($pgNum -1) . '"><img class="img-2" src="img/previous-button-2.png"/></a>';
+                        echo '<a href="searchResult.php?pageNum=' . ($pgNum -1) . '"><img class="img-2" src="../img/previous-button-2.png"/></a>';
                         echo '<div class="div-wrapper"><div class="text-wrapper-4">' . $pgNum . '</div></div>';
-                        echo '<a href="searchResult.php?pageNum=' . ($pgNum +1) . '" ><img class="img-2" src="img/next-button-2.png" /></a>';
+                        echo '<a href="searchResult.php?pageNum=' . ($pgNum +1) . '" ><img class="img-2" src="../img/next-button-2.png" /></a>';
                      ?>
                   </div>
                 </div>
