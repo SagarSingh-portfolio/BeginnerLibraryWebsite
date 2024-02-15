@@ -1,7 +1,7 @@
 <head>
-    <link rel="stylesheet" href="styles/globals.css" />
-    <link rel="stylesheet" href="styles/styleguide.css" />
-    <link rel="stylesheet" href="styles/style-footer.css" />
+    <link rel="stylesheet" href="../styles/globals.css" />
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style-footer.css" />
 </head>
 
 <footer class="footer">
@@ -18,7 +18,7 @@
         <div class="socialLink">Instagram<br /><br />Twitter<br /><br />Facebook<br /><br />Tiktok</div>
       </div>
     </div>
-    <img class="line" src="img/line-1-1.png" />
+    <img class="line" src="../img/line-1-1.png" />
     <div class="logodiv">
       <div class="logo">
         <div class="overlap-group">
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <img class="line" src="img/line-1-1.png" />
+    <img class="line" src="../img/line-1-1.png" />
     <div class="element-web-design-and-wrapper">
       <p class="element-web-design-and">2023 WEB DESIGN AND DEVELOPMENT BY SAGAR SINGH</p>
     </div>

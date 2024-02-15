@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="styles/style-loginContent.css">
+    <link rel="stylesheet" href="../styles/style-loginContent.css">
 </head>
 
 <?php 
@@ -65,6 +65,6 @@
                 <a class="sign-up-here" href="signup.php">Sign Up Here</a>
             </div>
         </form>
-        <div class="backgroundHome"><img src="img/background.png" alt=""></div>
+        <div class="backgroundHome"><img src="../img/background.png" alt=""></div>
     </div>
 </div>
